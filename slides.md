@@ -6,6 +6,7 @@ highlighter: shiki
 colorSchema: dark
 lineNumbers: false
 layout: cover
+routerMode: hash
 date: 2022-01-13 09:43
 ---
 

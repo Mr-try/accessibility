@@ -1,0 +1,39 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add playwright-chromium
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Users/try/.cargo/bin:/Users/try/Android/sdk/emulator:/Users/try/Android/sdk/tools:/Users/try/Android/sdk/tools/bin:/Users/try/Android/sdk/platform-tools:/Users/try/Android/sdk/emulator:/Users/try/Android/sdk/tools:/Users/try/Android/sdk/tools/bin:/Users/try/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  16.13.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EEXIST: file already exists, mkdir '/Users/try/pptt/slidev/node_modules/d3-force/node_modules'
+
+npm manifest: 
+  {
+    "private": true,
+    "scripts": {
+      "build": "slidev build",
+      "dev": "slidev --open",
+      "export": "slidev export"
+    },
+    "dependencies": {
+      "@slidev/cli": "^0.27.20",
+      "@slidev/theme-default": "*",
+      "@slidev/theme-seriph": "*"
+    },
+    "name": "slidev"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
